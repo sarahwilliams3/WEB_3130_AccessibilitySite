@@ -27,6 +27,9 @@ h4 {
   font-size: 1rem;
   font-style: italic;
 }
+p {
+  font-size: 1rem;
+}
 
 header {
   background-color: #59252e;
@@ -45,7 +48,6 @@ nav {
   background-color: #873947;
   color: white;
   margin-top: 0;
-
   line-height: 60px;
   height: 60px;
 }
@@ -87,7 +89,7 @@ nav a[aria-current="page"] {
 }
 aside {
   padding-left: 2.5rem;
-  background-color: #809ba6;
+  background-color: #a7cbd9;
   margin-bottom: 0;
   padding-bottom: 0;
   float: right;
@@ -127,8 +129,11 @@ footer {
   color: #fffaf7;
   background-color: #59252e;
   width: 100%;
-  line-height: 100px;
-  height: 100px;
+  line-height: 50px;
+}
+.fixed {
+  position: fixed;
+  bottom: 0;
 }
 
 ///////////////INDEX PAGE/////////////////
@@ -149,7 +154,7 @@ th.red {
 }
 .light {
   color: black;
-  background-color: #96c9dd;
+  background-color: #a7cbd9;
 }
 
 th {
@@ -165,4 +170,9 @@ caption {
 }
 dt {
   font-size: 1.1rem;
+  font-weight: 600;
+}
+footer p {
+  text-align: center;
+  line-height: 50px;
 }
